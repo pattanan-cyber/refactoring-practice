@@ -7,4 +7,5 @@ if __name__ == '__main__':
     print(recipe2)
     recipe3 = Recipe("Hot Chocolate", 0, 3, 2, 4, 30.0)
     print(recipe3)
-    
+
+#replace redundant code with a creational method
