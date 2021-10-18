@@ -14,10 +14,10 @@ class Recipe:
     sugar: int
     price: float
 
-    def __init__(self, name):
+    def __init__(self, name, coffee=0.0, chocolate=0.0, milk=0.0, sugar=0.0, price=0.0):
         self.name = name
-        self.coffee = 0
-        self.chocolate = 0
-        self.milk = 0
-        self.sugar = 0
-        self.price = 0.0
+        self.coffee = coffee
+        self.chocolate = chocolate
+        self.milk = milk
+        self.sugar = sugar
+        self.price = price
