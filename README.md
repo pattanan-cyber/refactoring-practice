@@ -11,10 +11,7 @@ Each subdirectory contains some code that needs refactoring.
 ## `time/timestamp.py`
 
 Refactor timestamp.py.  2 or 3 refactorings are possible.
-create is_valid_time function.
-change class name to be python style.
-change to datetime.
-return ValueError when not is_valid_time.
+create is_valid_time function, change class name to be python style, change to datetime, return ValueError when not is_valid_time.
 
 ## `game_framework/gamelib.py`
 
