@@ -21,6 +21,8 @@ Look for refactorings in the class `GameApp`.
 
 * Encapsulate a collection - provide behavior that subclasses of GameApp need instead of requiring them to manipulate a collection that belongs to the GameApp class.
   - Hint: `elements`
+  
+add remove function in Gameapp,change init,self.canvas.
 
 ## `recipe/recipe.py` and `recipe/main.py`
 
